@@ -1,6 +1,7 @@
 # Github_Issue_Scraper
 
 This is a Web Scraper application made with Node and Express JS along with the following APIs:
+
 • Axios (promise based http client)
 • Cheerio( for web scraping )
 • fs(for file handling)
