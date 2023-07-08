@@ -38,7 +38,6 @@ function getIssuesPageHtml(url, topic, repoName) {
         pdfDoc.pipe(fs.createWriteStream(filePath));
         pdfDoc.text(text);
         pdfDoc.end();
-        // fs.writeFileSync(filePath,);
     }
 }
 module.exports = getIssuesPageHtml;
